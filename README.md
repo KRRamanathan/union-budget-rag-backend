@@ -4,6 +4,8 @@ A production-ready RAG (Retrieval-Augmented Generation) system for document-base
 
 ## 🌐 Live Demo
 
+**Hosted Application**: [https://union-budget-rag-frontend.vercel.app](https://union-budget-rag-frontend.vercel.app)
+
 **Hosted Backend API**: [https://union-budget-rag-backend.onrender.com](https://union-budget-rag-backend.onrender.com)
 
 - Health Check: [https://union-budget-rag-backend.onrender.com/api/health](https://union-budget-rag-backend.onrender.com/api/health)
