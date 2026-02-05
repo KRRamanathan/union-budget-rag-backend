@@ -1,0 +1,50 @@
+# ===========================================
+# Union Budget RAG - Python Dependencies
+# ===========================================
+
+# Flask web framework
+flask>=3.0.0
+flask-cors>=4.0.0
+
+# Environment variables
+python-dotenv>=1.0.0
+
+# LangChain core
+langchain>=0.3.0
+langchain-core>=0.3.0
+langchain-community>=0.3.0
+langchain-text-splitters>=0.3.0
+
+# LangChain integrations
+# langchain-huggingface>=0.1.0  # Not needed - using Inference API instead
+langchain-pinecone>=0.2.0
+langchain-google-genai>=2.0.0
+
+# Pinecone vector database
+pinecone-client>=3.0.0
+
+# Google Generative AI (Gemini)
+google-generativeai>=0.8.0
+
+# Embeddings - using Cohere API (free tier, lightweight, no local models)
+requests>=2.31.0  # For Cohere API calls (already used elsewhere)
+
+# PDF processing
+PyMuPDF>=1.23.0
+
+# Database (PostgreSQL/Neon)
+sqlalchemy>=2.0.0
+psycopg2-binary>=2.9.0
+
+# Authentication
+PyJWT>=2.8.0
+bcrypt>=4.1.0
+
+# Utilities
+werkzeug>=3.0.0
+
+# Language detection
+langdetect>=1.0.9
+
+# Production WSGI server
+gunicorn>=21.2.0

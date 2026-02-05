@@ -1,0 +1,2 @@
+# Place your PDF files in this folder for ingestion
+# Then run: python ingest.py
